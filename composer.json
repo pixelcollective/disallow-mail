@@ -1,0 +1,16 @@
+{
+  "name": "tiny-pixel/disallow-mail",
+  "description": "Stop WordPress from sending mail",
+  "homepage": "https://github.com/pixel-collective/disallow-mail",
+  "type": "wordpress-muplugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kelly Mears",
+      "email": "developers@tinypixel.dev"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  }
+}
