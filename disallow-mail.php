@@ -10,6 +10,8 @@
  * License:      MIT License
  */
 
+use PHPMailer\PHPMailer\PHPMailer;
+
 (new class {
     /**
      * Class invocation.
@@ -60,7 +62,7 @@
     /**
      * Overwrite phpmailer instance to prevent message sends.
      *
-     * @param  PHPMailer wp phpmailer instance
+     * @param  PHPMailer  wp phpmailer instance
      * @return void
      */
     public function disablePHPMailer(PHPMailer $phpmailer): void
