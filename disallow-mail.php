@@ -60,14 +60,14 @@
     /**
      * Overwrite phpmailer instance to prevent message sends.
      *
-     * @param  PHPMailer wp phpmailer instance
+     * @param  \PHPMailer\PHPMailer\PHPMailer  wp phpmailer instance
      * @return void
      */
-    public function disablePHPMailer(PHPMailer $phpmailer): void
+    public function disablePHPMailer(\PHPMailer\PHPMailer\PHPMailer $phpmailer): void
     {
         global $phpmailer;
 
-        $phpmailer = new PHPMailer(true);
+        $phpmailer = new \PHPMailer\PHPMailer\PHPMailer (true);
     }
 
     /**
