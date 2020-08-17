@@ -69,7 +69,7 @@ use PHPMailer\PHPMailer\PHPMailer;
     {
         global $phpmailer;
 
-        $phpmailer = new PHPMailer (true);
+        $phpmailer = new PHPMailer(true);
     }
 
     /**
